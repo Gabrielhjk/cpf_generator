@@ -20,18 +20,16 @@ def cpf():
     cpf = CPF()
     while True:
         formatted_cpf = input('Enter the cpf: ')
+        cpf_length = 9
 
         if not formatted_cpf.isdigit():
             print('Enter a valid value!')
             continue
 
-        if len(formatted_cpf) > 9:
-            print('The cpf have more than 9 numbers, try again!')
+        if len(formatted_cpf) == cpf_length:
+            return cpf.mask(formatted_cpf)
+        else:
+            print('The cpf must have 9 numbers, try again!')
             continue
-        elif len(formatted_cpf) < 9:
-            print('The cpf have less than 9 numbers, try again!')
-            continue
-        
-        return cpf.mask(formatted_cpf)
 
 main()
