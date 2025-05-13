@@ -31,7 +31,7 @@ app/
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/Gabrielhjk/gerador_cpf.git
+git clone https://github.com/Gabrielhjk/cpf_generator.git
 cd gerador_cpf
 execute no terminal o arquivo main.py
 ````
