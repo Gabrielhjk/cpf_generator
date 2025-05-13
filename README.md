@@ -6,7 +6,7 @@ O objetivo é gerar e validar números de CPFs de forma automatizada e didática
 ## 🚀 Funcionalidades
 
 - Geração de CPFs válidos (com os dígitos verificadores corretos)
-- Validação do CPF (apenas números)
+- Validação do CPFs (apenas números)
 - Exibição do CPF formatado (###.###.###-##)
 - Estrutura orientada a objetos, com classes e métodos bem definidos
 - Código limpo e comentado
