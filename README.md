@@ -13,11 +13,12 @@ O objetivo é gerar e validar números de CPFs de forma automatizada e didática
 
 ## 📦 Estrutura do Projeto
 
-app/
-├── create_cpf.py # Classe com a lógica de geração do CPF
-├── main.py # Arquivo principal para executar o programa
-├── validate_cpf.py # Classe com a lógica da validação do CPF
-└── README.md # Documentação do projeto
+cpf_generator/
+├── create_cpf.py      # Contém a classe responsável por gerar CPFs válidos
+├── main.py            # Arquivo principal para executar o programa
+├── validate_cpf.py    # Contém a classe responsável por validar CPFs
+└── README.md          # Documentação do projeto
+
 
 ## 🧠 Conceitos de POO utilizados
 
