@@ -1,5 +1,6 @@
 from validate_docbr import CPF
 
+# Recebe a entrada do usuário e só permite números com 11 dígitos
 class Cpf:
     def __init__(self, cpf=''):
         self.cpf = cpf    
@@ -18,6 +19,7 @@ class Cpf:
                 print('The cpf must have 11 numbers, try again!')
                 continue
 
+# Valida se o cpf é valido ou inválido e retorna o cpf formatado
 class Validation(Cpf):
     def __init__(self, cpf=''):
         super().__init__(cpf=cpf)

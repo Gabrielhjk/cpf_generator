@@ -1,6 +1,7 @@
 from validate_docbr import CPF
 import random
 
+# Criação dos 11 dígitos do cpf e retorna ele formatado
 class Create:
     def __init__(self):
         self.cpf = ''

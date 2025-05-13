@@ -1,7 +1,9 @@
+# Importa a classe CPF da biblioteca externa 'validate-docbr' para validação de CPF
 from validate_docbr import CPF
 from create_cpf import Create
 from validate_cpf import *
 
+# Função principal do programa
 def main():
     while True:
         create_or_validate_cpf = input('Do you want to create or validate the cpf?\n'
