@@ -32,7 +32,7 @@ cpf_generator/
 
 ```bash
 git clone https://github.com/Gabrielhjk/cpf_generator.git
-cd gerador_cpf
+cd cpf_generator
 execute no terminal o arquivo main.py
 ````
 
