@@ -9,7 +9,6 @@ O objetivo é gerar e validar números de CPFs de forma automatizada e didática
 - Validação do CPFs (apenas números)
 - Exibição do CPF formatado (###.###.###-##)
 - Estrutura orientada a objetos, com classes e métodos bem definidos
-- Código limpo e comentado
 
 ## 📦 Estrutura do Projeto
 
