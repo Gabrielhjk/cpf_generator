@@ -34,6 +34,7 @@ cpf_generator/
 ```bash
 git clone https://github.com/Gabrielhjk/cpf_generator.git
 cd cpf_generator
+cd app
 execute no terminal o arquivo main.py
 ````
 
