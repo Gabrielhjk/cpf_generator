@@ -13,7 +13,7 @@ O objetivo é gerar e validar números de CPFs de forma automatizada e didática
 ## 📦 Estrutura do Projeto
 
 ```
-    cpf_generator/
+cpf_generator/
     ├── app
         ├── create_cpf.py # Classe com a lógica de geração do CPF
         ├── main.py # Arquivo principal para executar o programa
